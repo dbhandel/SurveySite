@@ -1,0 +1,17 @@
+form.pure-form
+  //- currentQuestion = questions[0];
+  fieldset
+    p=  question.q
+    label.pure-radio
+      input#option-one(type="radio", name = "answers")
+      | #{question.a1}
+    label.pure-radio
+      input#option-two(type="radio", name = "answers")
+      | #{question.a2}
+    label.pure-radio
+      input#option-three(type="radio", name = "answers")
+      | #{question.a3}
+    label.pure-radio
+      input#option-three(type="radio", name = "answers")
+      | #{question.a4}
+    button.pure-button.notice submit
