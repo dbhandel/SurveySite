@@ -16,6 +16,6 @@ exports.question = function(req, res){
         res.render('survey', {question: questions[req.params.questionID], action: action});
     }
     else {
-        res.render('index', {question: questions[0]});
+        res.render('index', {question: questions[0], action: '/1'});
     }
 };

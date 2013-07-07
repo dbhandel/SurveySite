@@ -5,18 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="561622c1-a3c0-4172-8bec-774e47de3d79" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/questionsDB.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/thanks.jade" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/question.jade" afterPath="$PROJECT_DIR$/views/question.jade" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/question.js" afterPath="$PROJECT_DIR$/routes/question.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SurveySite.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/app.js" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1373225630706" ignored="false" />
-    <file path="/question.js" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1373235553997" ignored="false" />
+    <file path="/question.js" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1373237827356" ignored="false" />
     <file path="/question.jade" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1373235960264" ignored="false" />
     <file path="/style.styl" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1372612126076" ignored="false" />
     <file path="/layout.jade" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1372809710843" ignored="false" />
@@ -30,7 +25,7 @@
     <file path="$PROJECT_DIR$/../../test/app.js" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1372610003340" ignored="false" />
     <file path="/index.js" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1372950941981" ignored="false" />
     <file path="/survey.jade" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1372952204222" ignored="false" />
-    <file path="/Dummy.txt" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1373236474390" ignored="false" />
+    <file path="/Dummy.txt" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1373237986475" ignored="false" />
     <file path="/questionsDB.js" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1373215463612" ignored="false" />
     <file path="/thanks.jade" changelist="561622c1-a3c0-4172-8bec-774e47de3d79" time="1373234620925" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -90,22 +85,20 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="question.js" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="question.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/routes/question.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="31" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
+                <state line="18" column="53" selection-start="679" selection-end="679" vertical-scroll-proportion="1.2422146">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="questionsDB.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="questionsDB.js" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/questionsDB.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="2" selection-start="915" selection-end="915" vertical-scroll-proportion="0.95412844">
-                  <folding>
-                    <element signature="n#!!doc" expanded="true" />
-                  </folding>
+                <state line="13" column="2" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -150,19 +143,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="question.jade" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="question.jade" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/question.jade">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="style.styl" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/stylesheets/style.styl">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="11" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -195,16 +179,16 @@
         <option value="$PROJECT_DIR$/views/survey.jade" />
         <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/views/thanks.jade" />
-        <option value="$PROJECT_DIR$/routes/question.js" />
         <option value="$PROJECT_DIR$/views/question.jade" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/questionsDB.js" />
+        <option value="$PROJECT_DIR$/routes/question.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
-    <option name="y" value="38" />
+    <option name="x" value="22" />
+    <option name="y" value="22" />
     <option name="width" value="1336" />
     <option name="height" value="720" />
   </component>
@@ -234,7 +218,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -313,22 +296,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurveySite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SurveySite" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="node_modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="69" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="98" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="recentsLimit" value="5" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="68" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="105" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1111" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1112" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1111" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="105" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="98" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -384,26 +382,31 @@
       <created>1372423179378</created>
       <updated>1372423179378</updated>
     </task>
+    <task id="LOCAL-00001" summary="Submit form works with thanks page after final Q.">
+      <created>1373236520722</created>
+      <updated>1373236520722</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="38" width="1336" height="720" extended-state="0" />
+    <frame x="22" y="22" width="1336" height="720" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24926686" sideWeight="0.60535115" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17417876" sideWeight="0.6705686" order="0" side_tool="false" content_ui="combo" x="619" y="201" width="229" height="362" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17417876" sideWeight="0.6070234" order="0" side_tool="false" content_ui="combo" x="619" y="201" width="229" height="362" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39297658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39297658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32608697" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -501,9 +504,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Caches/WebStorm6/extLibs/nodejs-v0.10.11-src/core-modules-sources/lib/events.js">
@@ -513,14 +514,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/stylesheets/style.styl">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="15" selection-end="15" vertical-scroll-proportion="0.0">
+        <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -546,20 +545,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/question.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/question.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="45" selection-start="45" selection-end="45" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/thanks.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="13" selection-start="29" selection-end="29" vertical-scroll-proportion="0.0">
@@ -576,10 +561,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/questionsDB.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="2" selection-start="915" selection-end="915" vertical-scroll-proportion="0.95412844">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="13" column="2" selection-start="915" selection-end="915" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/question.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="53" selection-start="679" selection-end="679" vertical-scroll-proportion="1.2422146">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/question.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="30" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
