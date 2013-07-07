@@ -5,7 +5,7 @@
 
 var express = require('express')
   , routes = require('./routes')
-  , question = require('./routes/question') //is this needed??
+  , question = require('./routes/question')
   , http = require('http')
   , path = require('path');
 
@@ -31,6 +31,11 @@ if ('development' == app.get('env')) {
 }
 
 
+//Thank you page appears at top of custom routes because /thanks
+//would be picked up as the questionID
+app.get('/thanks', function (req, res) {
+    res.render('thanks');
+});
 //handles requests for "/" and "/questionID"
 app.get('/:questionID?',question.question);
 

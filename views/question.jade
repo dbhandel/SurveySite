@@ -1,17 +1,17 @@
-form.pure-form
+form.pure-form(action = action, method='GET', 'application/x-www-form-urlencoded')
   //- currentQuestion = questions[0];
   fieldset
     p=  question.q
     label.pure-radio
-      input#option-one(type="radio", name = "answers")
+      input#option-one(type="radio", name = "answers", value= question.a1)
       | #{question.a1}
     label.pure-radio
-      input#option-two(type="radio", name = "answers")
+      input#option-two(type="radio", name = "answers", value= question.a2)
       | #{question.a2}
     label.pure-radio
-      input#option-three(type="radio", name = "answers")
+      input#option-three(type="radio", name = "answers", value= question.a3)
       | #{question.a3}
     label.pure-radio
-      input#option-three(type="radio", name = "answers")
+      input#option-three(type="radio", name = "answers", value= question.a4)
       | #{question.a4}
     button.pure-button.notice submit
