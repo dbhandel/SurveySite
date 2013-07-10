@@ -9,7 +9,9 @@ var express = require('express')
   , http = require('http')
   , path = require('path');
 
+
 var app = express();
+var RedisStore = require('connect-redis')(express);
 
 // all environments
 app.set('port', process.env.PORT || 3000);
@@ -20,7 +22,11 @@ app.use(express.logger('dev'));
 app.use(express.bodyParser());
 app.use(express.methodOverride());
 app.use(express.cookieParser('your secret here'));
-app.use(express.session());
+app.use(express.session({store: new RedisStore({
+    host: '127.0.0.1',
+    port: 6380,
+    prefix: 'sess'
+}), secret: 'SEKR37'}));
 app.use(app.router);
 app.use(require('stylus').middleware(__dirname + '/public'));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -39,6 +45,15 @@ app.get('/thanks', function (req, res) {
 //handles requests for "/" and "/questionID"
 app.get('/:questionID?',question.question);
 
-http.createServer(app).listen(app.get('port'), function(){
+//testing out a signedCookie
+/*app.get('/counter', function(req, res) {
+    var count = req.signedCookies.count || 0;
+    count ++;
+    res.cookie('count', count, {signed: true});
+    res.send('Count: ' + count);
+});*/
+
+
+        http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
