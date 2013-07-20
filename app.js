@@ -7,7 +7,8 @@ var express = require('express')
   , routes = require('./routes')
   , question = require('./routes/question')
   , http = require('http')
-  , path = require('path');
+  , path = require('path')
+  , index = require('./routes/index');
 
 
 var app = express();
@@ -42,8 +43,9 @@ if ('development' == app.get('env')) {
 app.get('/thanks', function (req, res) {
     res.render('thanks');
 });
-//handles requests for "/" and "/questionID"
-app.get('/:questionID?',question.question);
+
+app.get('/',index.index);
+app.get('/:questionID',question.question);
 
 //testing out a signedCookie
 /*app.get('/counter', function(req, res) {
