@@ -7,9 +7,11 @@ var express = require('express')
   , routes = require('./routes')
   , question = require('./routes/question')
   , http = require('http')
+  , databaseUrl = "SurveySite"
+  , collections = ["questions", "users"]
   , path = require('path');
 
-
+var db = require("mongojs").connect(databaseUrl, collections);
 var app = express();
 var RedisStore = require('connect-redis')(express);
 
