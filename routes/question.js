@@ -13,6 +13,6 @@ exports.question = function(req, res){
         else {
             action = '/thanks';
         }
-        res.render('survey', {question: questions[req.params.questionID], action: action});
+        res.send({question: questions[req.params.questionID], action: action});
 
 };
