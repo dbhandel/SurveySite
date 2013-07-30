@@ -1,16 +1,16 @@
 form.pure-form#survey(action = action, method='GET', 'application/x-www-form-urlencoded')
   fieldset
-    p=  question.q
-    label#a1(for="1")
+    p#question=  question.q
+    label.pure-radio#a1(for="1")
       input#1.answer(type="radio", name = "answers", value= question.a1, required="required")
       | #{question.a1}
-    label.pure-radio
+    label.pure-radio#a2
       input#2.answer(type="radio", name = "answers", value= question.a2, required="required")
       | #{question.a2}
-    label.pure-radio
+    label.pure-radio#a3
       input#3.answer(type="radio", name = "answers", value= question.a3, required="required")
       | #{question.a3}
-    label.pure-radio
+    label.pure-radio#a4
       input#4.answer(type="radio", name = "answers", value= question.a4, required="required")
       | #{question.a4}
     label.pure-radio
