@@ -1,7 +1,4 @@
-<<<<<<< Updated upstream
-=======
 
->>>>>>> Stashed changes
 var questions = require('../questionsDB.js').questions;
 
 //GET next question page

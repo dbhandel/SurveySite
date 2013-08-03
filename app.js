@@ -88,7 +88,7 @@ var indexQuestion = getQ(0);
 console.log(indexQuestion);
 */
 
->>>>>>> Stashed changes
+
 
 //Thank you page appears at top of custom routes because /thanks
 //would be picked up as the questionID
