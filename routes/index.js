@@ -1,11 +1,17 @@
-
-/*
- * GET home page.
- */
+var questions = require('../questionsDB.js');
 
 exports.index = function(req, res){
 
-    var displayQ = require('../collections.js').getQ(0);
-    console.log(displayQ);
-    res.render('index', {question: displayQ, action: '/1'});
-};
+    console.log('inside index.js')
+    questions.getQ(0, function(err, question) {
+        if (err) {console.log('error');
+        }
+        else {
+            var action = '/1';
+            console.log("TEST");
+            //console.log(question);
+            res.render('index', {question: question, action: action});
+
+        }
+    });
+}
