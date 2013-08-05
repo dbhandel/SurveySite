@@ -1,26 +1,5 @@
-/*
 
-var questionsCursor = db.questions.find();
-var questionDocument = questionsCursor.hasNext() ? questionsCursor.next() : null;
-var action = "";
-var nextQ = 0;
-exports.question = function(req, res){
-    //treats the last question differently
-    // //in prep to show "thanks" page
-    if (questionDocument){
-        action = '/thanks';
-    }
-    else {
-        action = '/thanks';
-    }
-    res.render('survey', {question: questions[req.params.questionID], action: action});
-
-}
-*/
-
-
-
-var questions = require('../questionsDB.js').questions;
+var questions = require('../questionsDB.js');
 
 //GET next question page
 exports.question = function(req, res){
@@ -28,13 +7,24 @@ exports.question = function(req, res){
 
     //treats the last question differently
     // //in prep to show "thanks" page
-    if (req.params.questionID < questions.length - 1){
+    console.log('inside question.js')
+        questions.getQ(req.params.questionID, function(err, question) {
+            if (err) {console.log('error');
+            }
+            else {
+                var action = '/' + ++req.params.questionID;
+                console.log("TEST");
+                //console.log(question);
+                res.render('survey', {question: question, action: action});
+
+            }
+        });
         //builds and PRE-increments the action attr of the form
-        var action = '/' + ++req.params.questionID;
-    }
-    else {
+
+
+    /*else {
         action = '/thanks';
-    }
-    res.render('survey', {question: questions[req.params.questionID], action: action});
+    }*/
+
 
 };
