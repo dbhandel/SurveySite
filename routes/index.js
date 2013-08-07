@@ -9,7 +9,7 @@ exports.index = function(req, res){
         else {
             var action = '/1';
             console.log("TEST");
-            //console.log(question);
+            console.log('TEST2');
             res.render('index', {question: question, action: action});
 
         }

@@ -3,7 +3,7 @@ var   databaseUrl = "SurveySite"
     , collections = ["questions", "users"]
     , db = require("mongojs").connect(databaseUrl, collections);
 
-exports.getQ = function (desiredQ, returnQ ) {
+exports.getQ = function(desiredQ, returnQ ) {
     db.questions.find({}, function (err, questions) {
         if (err || !questions) {
             console.log(err);
@@ -15,9 +15,17 @@ exports.getQ = function (desiredQ, returnQ ) {
     })
 }
 
-
-
-
+exports.getCount = function(err, returnCount) {
+    db.questions.count(err, function(err, count){
+        if (err) {
+            console.log(err);
+        }
+        else {
+            //code to return number of questions
+            returnCount(err, count);
+        }
+    })
+}
 
 
 

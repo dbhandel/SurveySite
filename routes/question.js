@@ -9,22 +9,20 @@ exports.question = function(req, res){
     // //in prep to show "thanks" page
     console.log('inside question.js')
         questions.getQ(req.params.questionID, function(err, question) {
-            if (err) {console.log('error');
+            if (err) {
+                console.log('error');
             }
             else {
                 var action = '/' + ++req.params.questionID;
                 console.log("TEST");
-                //console.log(question);
-                res.render('survey', {question: question, action: action});
+                //console.log(questions.getCount(err, returnCount)
+                
+                //if req.params.questionID == db.questions.count() then go to /thanks
+                //console.log(questions.getCount())
+                //else render the next question
+
+                    res.render('survey', {question: question, action: action});
 
             }
         });
-        //builds and PRE-increments the action attr of the form
-
-
-    /*else {
-        action = '/thanks';
-    }*/
-
-
 };
