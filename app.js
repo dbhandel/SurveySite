@@ -7,6 +7,7 @@ var express = require('express')
   , routes = require('./routes')
   , question = require('./routes/question')
   , index = require('./routes/index')
+  , count = require('./routes/count')
   , http = require('http')
   //, databaseUrl = "SurveySite"
   //, collections = ["questions", "users"]
@@ -49,7 +50,13 @@ app.get('/thanks', function (req, res) {
 
 
 app.get('/',index.index);
+
+// '/count' must preceed /:questionID or 'count' will be read as the question ID
+app.get('/count', count.questionsCount);
+
 app.get('/:questionID',question.question);
+
+
 
 
 http.createServer(app).listen(app.get('port'), function () {
